@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/productapi/.mvn/.mvn.iml" filepath="$PROJECT_DIR$/productapi/.mvn/.mvn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userapi/.mvn/.mvn1.iml" filepath="$PROJECT_DIR$/userapi/.mvn/.mvn1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productapi/src/main/main.iml" filepath="$PROJECT_DIR$/productapi/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userapi/src/main/main1.iml" filepath="$PROJECT_DIR$/userapi/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productapi/productapi.iml" filepath="$PROJECT_DIR$/productapi/productapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userapi/src/test/test.iml" filepath="$PROJECT_DIR$/userapi/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productapi/src/test/test1.iml" filepath="$PROJECT_DIR$/productapi/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userapi/userapi.iml" filepath="$PROJECT_DIR$/userapi/userapi.iml" />
+    </modules>
+  </component>
+</project>
