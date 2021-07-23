@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0251ec5-d8d2-4e03-a535-ee342f517d8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/userapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/userapi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userapi/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/userapi/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userapi/src/main/resources/db/migration/v1_create_user_table.sql" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/productapi/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productapi/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/productapi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userapi/src/main/java/br/com/alessi/back/userapi/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/userapi/src/main/java/br/com/alessi/back/userapi/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userapi/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/userapi/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userapi/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/userapi/src/main/resources/schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,15 +32,27 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/userapi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/productapi/src/main/resources" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/productapi/src/main/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/userapi/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="UserapiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Compound.AllMicroservices">
+    <configuration name="ProductapiApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/adopt-openjdk-11.0.11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alessi.back.productapi.ProductapiApplication" />
+      <module name="productapi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserapiApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alessi.back.userapi.UserapiApplication" />
       <module name="userapi" />
       <extension name="coverage">
@@ -49,11 +65,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.UserapiApplication" />
-      </list>
-    </recent_temporary>
+    <configuration name="AllMicroservices" type="CompoundRunConfigurationType">
+      <toRun name="ProductapiApplication" type="Application" />
+      <toRun name="UserapiApplication" type="Application" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="ProductapiApplication" type="Application" />
+      <toRun name="UserapiApplication" type="Application" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.ProductapiApplication" />
+      <item itemvalue="Application.UserapiApplication" />
+      <item itemvalue="Compound.AllMicroservices" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
