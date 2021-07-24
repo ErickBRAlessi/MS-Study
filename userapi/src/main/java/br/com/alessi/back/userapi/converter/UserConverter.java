@@ -5,7 +5,7 @@ import br.com.alessi.back.userapi.model.User;
 
 import java.util.Date;
 
-public abstract class UserConverter {
+public abstract class UserConverter{
 
     public static User convert(UserDTO userDTO) {
         return User.builder()

@@ -5,18 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0251ec5-d8d2-4e03-a535-ee342f517d8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/productapi/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/productapi/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/converter/CategoryConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/converter/ProductConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/dto/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/productapi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userapi/src/main/java/br/com/alessi/back/userapi/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/userapi/src/main/java/br/com/alessi/back/userapi/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userapi/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/userapi/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userapi/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/userapi/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productapi/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/productapi/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productapi/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/productapi/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productapi/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/productapi/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userapi/src/main/java/br/com/alessi/back/userapi/converter/UserConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/userapi/src/main/java/br/com/alessi/back/userapi/converter/UserConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,14 +52,24 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/productapi/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.alessi.back.productapi.dto" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/productapi/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/userapi/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.alessi.back.userapi.converter" />
+      <recent name="br.com.alessi.back.productapi.converter" />
+      <recent name="br.com.alessi.back.productapi.dto" />
     </key>
   </component>
   <component name="RunManager" selected="Compound.AllMicroservices">
