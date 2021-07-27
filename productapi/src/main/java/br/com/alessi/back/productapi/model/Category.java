@@ -1,6 +1,6 @@
 package br.com.alessi.back.productapi.model;
 
-import br.com.alessi.back.productapi.dto.CategoryDTO;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,7 +13,8 @@ import javax.persistence.Id;
 @Data
 @Builder
 @NoArgsConstructor
-@Entity(name="category")
+@AllArgsConstructor
+@Entity(name = "category")
 public class Category {
 
     @Id

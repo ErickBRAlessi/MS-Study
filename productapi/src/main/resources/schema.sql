@@ -1,6 +1,7 @@
 CREATE SCHEMA IF NOT EXISTS products;
 
 DROP TABLE IF EXISTS products.product;
+DROP TABLE IF EXISTS products.category;
 
 create table products.category (
     id bigserial primary key,
