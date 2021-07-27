@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/productapi/src/main/main.iml" filepath="$PROJECT_DIR$/productapi/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/userapi/src/main/main1.iml" filepath="$PROJECT_DIR$/userapi/src/main/main1.iml" />
       <module fileurl="file://$PROJECT_DIR$/productapi/productapi.iml" filepath="$PROJECT_DIR$/productapi/productapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shoppingapi/shoppingapi.iml" filepath="$PROJECT_DIR$/shoppingapi/shoppingapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/userapi/src/test/test.iml" filepath="$PROJECT_DIR$/userapi/src/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/productapi/src/test/test1.iml" filepath="$PROJECT_DIR$/productapi/src/test/test1.iml" />
       <module fileurl="file://$PROJECT_DIR$/userapi/userapi.iml" filepath="$PROJECT_DIR$/userapi/userapi.iml" />

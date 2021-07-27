@@ -8,17 +8,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="userapi" />
+        <module name="shoppingapi" />
         <module name="productapi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="productapi" target="11" />
+      <module name="productapi (1)" target="11" />
+      <module name="shoppingapi" target="11" />
       <module name="userapi" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="productapi" options="-parameters" />
+      <module name="productapi (1)" options="-parameters" />
+      <module name="shoppingapi" options="-parameters" />
       <module name="userapi" options="-parameters" />
     </option>
   </component>
