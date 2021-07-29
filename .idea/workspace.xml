@@ -5,34 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0251ec5-d8d2-4e03-a535-ee342f517d8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shoppingapi/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/ShoppingApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/controller/ShopController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/converter/ItemConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/converter/ShopConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/dto/ItemDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/dto/ShopDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/model/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/model/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/repository/ShopRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/service/ShopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/src/test/java/br/com/alessi/back/productapi/ProductapiApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/dto/ReportDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/repository/ReportRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/repository/ReportRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/service/ReportService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/ProductapiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/ProductApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userapi/src/main/java/br/com/alessi/back/userapi/UserapiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/userapi/src/main/java/br/com/alessi/back/userapi/UserApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/controller/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/controller/ShopController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/shoppingapi/src/main/resources" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
@@ -162,15 +141,25 @@
       <option name="project" value="LOCAL" />
       <updated>1627406059679</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ShoppingApi Done">
+      <created>1627415039999</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627415040000</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="product api lacking tests" />
     <MESSAGE value="product api basic tests done" />
-    <option name="LAST_COMMIT_MESSAGE" value="product api basic tests done" />
+    <MESSAGE value="ShoppingApi Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="ShoppingApi Done" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -180,7 +169,17 @@
           <line>19</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/repository/ReportRepositoryImpl.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.Class" memberName="name" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
