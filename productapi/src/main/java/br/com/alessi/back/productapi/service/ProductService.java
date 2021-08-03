@@ -1,7 +1,7 @@
 package br.com.alessi.back.productapi.service;
 
+import br.com.alessi.back.common.dto.ProductDTO;
 import br.com.alessi.back.productapi.converter.ProductConverter;
-import br.com.alessi.back.productapi.dto.ProductDTO;
 import br.com.alessi.back.productapi.model.Product;
 import br.com.alessi.back.productapi.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package br.com.alessi.back.productapi.dto;
+package br.com.alessi.back.common.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

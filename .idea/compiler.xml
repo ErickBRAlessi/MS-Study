@@ -7,12 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="common" />
         <module name="userapi" />
         <module name="shoppingapi" />
+        <module name="common-dto" />
         <module name="productapi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common" target="11" />
+      <module name="common-dto" target="11" />
       <module name="productapi" target="11" />
       <module name="productapi (1)" target="11" />
       <module name="shoppingapi" target="11" />
@@ -21,6 +25,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
       <module name="productapi" options="-parameters" />
       <module name="productapi (1)" options="-parameters" />
       <module name="shoppingapi" options="-parameters" />

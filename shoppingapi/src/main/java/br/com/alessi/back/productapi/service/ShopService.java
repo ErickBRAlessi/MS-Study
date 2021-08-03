@@ -1,7 +1,7 @@
 package br.com.alessi.back.productapi.service;
 
+import br.com.alessi.back.common.dto.ShopDTO;
 import br.com.alessi.back.productapi.converter.ShopConverter;
-import br.com.alessi.back.productapi.dto.ShopDTO;
 import br.com.alessi.back.productapi.model.Shop;
 import br.com.alessi.back.productapi.repository.ShopRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -50,10 +50,7 @@ public class ShopService {
     @Transactional(propagation = Propagation.REQUIRED, readOnly = true, noRollbackFor = Exception.class)
     public ShopDTO findById(long ProductId) {
         Optional<Shop> shop = shopRepository.findById(ProductId);
-        if (shop.isPresent()) {
-            return ShopConverter.convert(shop.get());
-        }
-        return null;
+        return shop.map(ShopConverter::convert).orElse(null);
     }
 
     public ShopDTO save(ShopDTO shopDTO) {

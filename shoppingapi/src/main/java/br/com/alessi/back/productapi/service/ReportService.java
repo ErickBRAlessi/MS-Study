@@ -1,8 +1,8 @@
 package br.com.alessi.back.productapi.service;
 
+import br.com.alessi.back.common.dto.ReportDTO;
+import br.com.alessi.back.common.dto.ShopDTO;
 import br.com.alessi.back.productapi.converter.ShopConverter;
-import br.com.alessi.back.productapi.dto.ReportDTO;
-import br.com.alessi.back.productapi.dto.ShopDTO;
 import br.com.alessi.back.productapi.repository.ReportRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

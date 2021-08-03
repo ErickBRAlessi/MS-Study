@@ -1,6 +1,6 @@
 package br.com.alessi.back.productapi.controller;
 
-import br.com.alessi.back.productapi.dto.ProductDTO;
+import br.com.alessi.back.common.dto.ProductDTO;
 import br.com.alessi.back.productapi.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

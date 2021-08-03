@@ -17,6 +17,7 @@
         <java.version>11</java.version>
     </properties>
     <dependencies>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -37,13 +38,18 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         <!--MIGRAÇÕES A ideia de migrações é manter as mudanças do modelo de dados versionadas e reproduzíveis. A atualização de banco de dados sempre foi um problema, já que os scripts normalmente não são mantidos junto ao código-fonte da aplicação e a aplicação deles era feita de formamanual. Com as migrações, os scripts são mantidos junto ao código-fonte e as mudanças são aplicadas no banco de dados automaticamente assim que a aplicação for implantada. Neste livro usaremos o Flyway (https://flywaydb.org) para o gerenciamento de migrações.-->
-    <!--    <dependency>
-            <groupId>org.flywaydb</groupId>
-            <artifactId>flyway-core</artifactId>
-        </dependency> -->
+        <!--    <dependency>
+                <groupId>org.flywaydb</groupId>
+                <artifactId>flyway-core</artifactId>
+            </dependency> -->
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>br.com.alessi.back</groupId>
+            <artifactId>common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
     </dependencies>

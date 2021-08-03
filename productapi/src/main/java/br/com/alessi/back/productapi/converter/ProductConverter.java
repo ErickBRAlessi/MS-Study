@@ -1,6 +1,6 @@
 package br.com.alessi.back.productapi.converter;
 
-import br.com.alessi.back.productapi.dto.ProductDTO;
+import br.com.alessi.back.common.dto.ProductDTO;
 import br.com.alessi.back.productapi.model.Product;
 
 public abstract class ProductConverter{

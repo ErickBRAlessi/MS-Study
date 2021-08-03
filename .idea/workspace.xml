@@ -4,13 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0251ec5-d8d2-4e03-a535-ee342f517d8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/dto/ReportDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/repository/ReportRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/repository/ReportRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/service/ReportService.java" afterDir="false" />
+    <list default="true" id="e0251ec5-d8d2-4e03-a535-ee342f517d8b" name="Default Changelist" comment="all dtos gathered in common">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/productapi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/converter/CategoryConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/converter/CategoryConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/converter/ProductConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/converter/ProductConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/dto/CategoryDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/br/com/alessi/back/common/dto/CategoryDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/dto/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/br/com/alessi/back/common/dto/ProductDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/productapi/src/main/java/br/com/alessi/back/productapi/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingapi/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/controller/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/controller/ShopController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/converter/ItemConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/converter/ItemConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/converter/ShopConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/converter/ShopConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/dto/ItemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/br/com/alessi/back/common/dto/ItemDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/dto/ReportDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/br/com/alessi/back/common/dto/ReportDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/dto/ShopDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/br/com/alessi/back/common/dto/ShopDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/repository/ReportRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/repository/ReportRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/repository/ReportRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/repository/ReportRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/service/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/service/ReportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingapi/src/main/java/br/com/alessi/back/productapi/service/ShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/userapi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userapi/src/main/java/br/com/alessi/back/userapi/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/userapi/src/main/java/br/com/alessi/back/userapi/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userapi/src/main/java/br/com/alessi/back/userapi/converter/UserConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/userapi/src/main/java/br/com/alessi/back/userapi/converter/UserConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userapi/src/main/java/br/com/alessi/back/userapi/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/br/com/alessi/back/common/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userapi/src/main/java/br/com/alessi/back/userapi/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/userapi/src/main/java/br/com/alessi/back/userapi/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +57,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1vj78gP9xBuxyZ6hC8ddG9yBatm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,7 +79,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/shoppingapi/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/src/main/java/br/com/alessi/back/common/dto" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
@@ -55,6 +89,7 @@
       <recent name="br.com.alessi.back.productapi.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common/src/main/java/br/com/alessi/back/common/dto" />
       <recent name="$PROJECT_DIR$/shoppingapi/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/productapi/src/main/resources" />
@@ -63,12 +98,13 @@
       <recent name="$PROJECT_DIR$/userapi/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.alessi.back.common.dto" />
       <recent name="br.com.alessi.back.userapi.converter" />
       <recent name="br.com.alessi.back.productapi.converter" />
       <recent name="br.com.alessi.back.productapi.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShoppingApiApplication">
+  <component name="RunManager" selected="Compound.AllMicroservices">
     <configuration name="ProductapiApplication" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/adopt-openjdk-11.0.11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -148,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627415040000</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" cap 8 done">
+      <created>1627587713865</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627587713865</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -156,7 +199,9 @@
     <MESSAGE value="product api lacking tests" />
     <MESSAGE value="product api basic tests done" />
     <MESSAGE value="ShoppingApi Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="ShoppingApi Done" />
+    <MESSAGE value=" cap 8 done" />
+    <MESSAGE value="all dtos gathered in common" />
+    <option name="LAST_COMMIT_MESSAGE" value="all dtos gathered in common" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

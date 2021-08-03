@@ -1,6 +1,6 @@
 package br.com.alessi.back.userapi.controller;
 
-import br.com.alessi.back.userapi.dto.UserDTO;
+import br.com.alessi.back.common.dto.UserDTO;
 import br.com.alessi.back.userapi.service.UserService;
 import lombok.extern.java.Log;
 import org.springframework.beans.factory.annotation.Autowired;

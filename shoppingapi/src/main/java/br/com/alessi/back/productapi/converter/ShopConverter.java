@@ -1,6 +1,6 @@
 package br.com.alessi.back.productapi.converter;
 
-import br.com.alessi.back.productapi.dto.ShopDTO;
+import br.com.alessi.back.common.dto.ShopDTO;
 import br.com.alessi.back.productapi.model.Shop;
 
 import java.util.stream.Collectors;

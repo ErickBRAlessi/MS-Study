@@ -1,7 +1,7 @@
 package br.com.alessi.back.userapi.service;
 
+import br.com.alessi.back.common.dto.UserDTO;
 import br.com.alessi.back.userapi.converter.UserConverter;
-import br.com.alessi.back.userapi.dto.UserDTO;
 import br.com.alessi.back.userapi.model.User;
 import br.com.alessi.back.userapi.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;

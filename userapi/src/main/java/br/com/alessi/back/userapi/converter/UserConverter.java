@@ -1,6 +1,6 @@
 package br.com.alessi.back.userapi.converter;
 
-import br.com.alessi.back.userapi.dto.UserDTO;
+import br.com.alessi.back.common.dto.UserDTO;
 import br.com.alessi.back.userapi.model.User;
 
 import java.util.Date;

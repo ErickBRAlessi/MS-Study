@@ -1,26 +1,23 @@
-package br.com.alessi.back.productapi.dto;
+package br.com.alessi.back.common.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
-@Data
+
 @Builder
 @AllArgsConstructor
-public class ProductDTO {
+@NoArgsConstructor
+@Data
+public class ItemDTO {
 
     @NotBlank
     private String productIdentifier;
-    @NotBlank
-    private String nome;
-    @NotBlank
-    private String descricao;
     @NotNull
-    private Float preco;
-    @NotNull
-    private CategoryDTO category;
+    private Float price;
 
 }

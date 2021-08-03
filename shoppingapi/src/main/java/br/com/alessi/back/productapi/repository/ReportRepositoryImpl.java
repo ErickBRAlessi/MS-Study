@@ -1,6 +1,6 @@
 package br.com.alessi.back.productapi.repository;
 
-import br.com.alessi.back.productapi.dto.ReportDTO;
+import br.com.alessi.back.common.dto.ReportDTO;
 import br.com.alessi.back.productapi.model.Shop;
 import org.springframework.stereotype.Component;
 
