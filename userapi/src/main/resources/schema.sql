@@ -4,6 +4,7 @@ drop table if exists users.user;
 
 create table if not exists users.user(
       id bigserial primary key,
+      key varchar(100),
       nome varchar(100) not null,
       cpf  varchar(100) unique not null,
       endereco varchar(100) not null,

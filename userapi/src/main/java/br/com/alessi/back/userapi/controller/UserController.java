@@ -4,6 +4,7 @@ import br.com.alessi.back.common.dto.UserDTO;
 import br.com.alessi.back.userapi.service.UserService;
 import lombok.extern.java.Log;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.PostConstruct;
@@ -41,8 +42,10 @@ public class UserController {
     }
 
     @GetMapping("/users/cpf/{cpf}")
-    public UserDTO findByCpf(@PathVariable String cpf) {
-        return userService.findByCpf(cpf);
+    public ResponseEntity<UserDTO> findByCpf(@PathVariable String cpf,
+                                             @RequestParam(name = "key", required = true) String key) {
+        return ResponseEntity.ok().body(userService.findByCpfAndKey(cpf, key));
+
     }
 
     @DeleteMapping("/users/{id}")

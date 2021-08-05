@@ -19,6 +19,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String nome;
+    private String key;
 
     @Column(unique = true)
     private String cpf;

@@ -1,9 +1,11 @@
 package br.com.alessi.back.userapi.service;
 
 import br.com.alessi.back.common.dto.UserDTO;
+import br.com.alessi.back.common.exception.UserNotFoundException;
 import br.com.alessi.back.userapi.converter.UserConverter;
 import br.com.alessi.back.userapi.model.User;
 import br.com.alessi.back.userapi.repository.UserRepository;
+import br.com.alessi.back.userapi.util.UUIDGen;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -31,14 +33,18 @@ public class UserService {
     }
 
     public UserDTO save(UserDTO userDTO) {
+        userDTO.setKey(UUIDGen.build());
         User user = userRepository.save(UserConverter.convert(userDTO));
         return UserConverter.convert(user);
     }
 
     public UserDTO delete(long userId) {
         Optional<User> user = userRepository.findById(userId);
-        user.ifPresent(value -> userRepository.delete(value));
-        return null;
+        if (user.isPresent()) {
+            user.ifPresent(value -> userRepository.delete(value));
+            return null;
+        }
+        throw new UserNotFoundException();
     }
 
     public UserDTO findByCpf(String cpf) {
@@ -46,7 +52,15 @@ public class UserService {
         if (user != null) {
             return UserConverter.convert(user);
         }
-        return null;
+        throw new UserNotFoundException();
+    }
+
+    public UserDTO findByCpfAndKey(String cpf, String key) {
+        User user = userRepository.findByCpfAndKey(cpf, key);
+        if (user != null) {
+            return UserConverter.convert(user);
+        }
+        throw new UserNotFoundException();
     }
 
     public List<UserDTO> queryByName(String name) {

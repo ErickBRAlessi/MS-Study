@@ -10,6 +10,7 @@ public abstract class UserConverter{
     public static User convert(UserDTO userDTO) {
         return User.builder()
                 .nome(userDTO.getNome())
+                .key(userDTO.getKey())
                 .endereco(userDTO.getEndereco())
                 .cpf(userDTO.getCpf())
                 .email(userDTO.getEmail())
@@ -21,6 +22,7 @@ public abstract class UserConverter{
     public static UserDTO convert(User user) {
         return UserDTO.builder()
                 .nome(user.getNome())
+                .key(user.getKey())
                 .endereco(user.getEndereco())
                 .cpf(user.getCpf())
                 .email(user.getEmail())

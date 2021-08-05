@@ -6,6 +6,7 @@ import br.com.alessi.back.productapi.service.ReportService;
 import br.com.alessi.back.productapi.service.ShopService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -63,7 +64,9 @@ public class ShopController {
     }
 
     @PostMapping("/shopping")
-    public ShopDTO newShop(@Valid @RequestBody ShopDTO shopDTO) {
-        return shopService.save(shopDTO);
+    public ResponseEntity<ShopDTO> newShop(@RequestHeader(name = "key", required = true) String key,
+                                           @Valid @RequestBody ShopDTO shopDTO) {
+        return ResponseEntity.ok().body(shopService.save(shopDTO, key));
+        //  return shopService.save(shopDTO, key);
     }
 }

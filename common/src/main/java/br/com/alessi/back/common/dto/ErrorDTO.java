@@ -11,14 +11,10 @@ import java.util.Date;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserDTO {
+public class ErrorDTO {
 
-    private String nome;
-    private String key;
-    private String cpf;
-    private String endereco;
-    private String email;
-	private String telefone;
-	private Date dataCadastro;
+    private int status;
+    private String message;
+    private Date timestamp;
 
 }
