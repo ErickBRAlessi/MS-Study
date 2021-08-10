@@ -1,0 +1,159 @@
+{
+  "info": {
+    "_postman_id": "b60ce675-4fff-4930-8c7b-c6b191640c35",
+    "name": "ShoppingApi",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "newShopping",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "key",
+            "value": "14cad11d-938c-474c-810d-f97ff66b1e27",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"userIdentifier\": \"99999999999\",\n    \"items\": [\n        {\n            \"productIdentifier\": \"tv\",\n            \"price\": \"1000\"\n        },\n              {\n            \"productIdentifier\": \"tv\",\n            \"price\": \"1000\"\n        }\n    ]\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrlShopping}}/shopping",
+          "host": [
+            "{{baseUrlShopping}}"
+          ],
+          "path": [
+            "shopping"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "allShopping",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrlShopping}}/shopping",
+          "host": [
+            "{{baseUrlShopping}}"
+          ],
+          "path": [
+            "shopping"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "shopByUser",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": null
+      },
+      "response": []
+    },
+    {
+      "name": "shopByDate",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"userIdentifier\": \"teste\",\n    \"total\": 449.0,\n    \"date\": \"2001-07-27T19:36:53.611+00:00\",\n    \"items\": [\n        {\n            \"productIdentifier\": \"a1\",\n            \"price\": 100.0\n        },\n        {\n            \"productIdentifier\": \"a2\",\n            \"price\": 299.0\n        },\n        {\n            \"productIdentifier\": \"a3\",\n            \"price\": 50.0\n        }\n    ]\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrlShopping}}/shopping/shopByDate",
+          "host": [
+            "{{baseUrlShopping}}"
+          ],
+          "path": [
+            "shopping",
+            "shopByDate"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "search",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrlShopping}}/shopping/search?dataInicio=01/01/2000&dataFim=01/01/2030&valorMinimo=50",
+          "host": [
+            "{{baseUrlShopping}}"
+          ],
+          "path": [
+            "shopping",
+            "search"
+          ],
+          "query": [
+            {
+              "key": "dataInicio",
+              "value": "01/01/2000"
+            },
+            {
+              "key": "dataFim",
+              "value": "01/01/2030"
+            },
+            {
+              "key": "valorMinimo",
+              "value": "50"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "report",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8082/shopping/report?dataInicio=01/01/2020&dataFim=01/01/2030",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "shopping",
+            "report"
+          ],
+          "query": [
+            {
+              "key": "dataInicio",
+              "value": "01/01/2020"
+            },
+            {
+              "key": "dataFim",
+              "value": "01/01/2030"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

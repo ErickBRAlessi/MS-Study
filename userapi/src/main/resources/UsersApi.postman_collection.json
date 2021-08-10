@@ -1,0 +1,137 @@
+{
+  "info": {
+    "_postman_id": "60702639-ff56-478a-8f7b-b783cf463c36",
+    "name": "UsersApi",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "usersByCpf",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrlUser}}/users/cpf/99999999999?key=787f05e7-c231-4019-8d1a-83f6d55c4880",
+          "host": [
+            "{{baseUrlUser}}"
+          ],
+          "path": [
+            "users",
+            "cpf",
+            "99999999999"
+          ],
+          "query": [
+            {
+              "key": "key",
+              "value": "787f05e7-c231-4019-8d1a-83f6d55c4880"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "searchName",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrlUser}}/users/search?nome=User%25",
+          "host": [
+            "{{baseUrlUser}}"
+          ],
+          "path": [
+            "users",
+            "search"
+          ],
+          "query": [
+            {
+              "key": "nome",
+              "value": "User%25"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "deleteById",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrlUser}}/users/1",
+          "host": [
+            "{{baseUrlUser}}"
+          ],
+          "path": [
+            "users",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "allUsers",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrlUser}}/users",
+          "host": [
+            "{{baseUrlUser}}"
+          ],
+          "path": [
+            "users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "addUser",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"nome\": \"Posted User\",\n    \"cpf\": \"99999999999\",\n    \"endereco\": \"St 404\",\n    \"email\": \"email9@email.com\",\n    \"telefone\": \"(41)2315-4545\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrlUser}}/users",
+          "host": [
+            "{{baseUrlUser}}"
+          ],
+          "path": [
+            "users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "usersById",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrlUser}}/users/4",
+          "host": [
+            "{{baseUrlUser}}"
+          ],
+          "path": [
+            "users",
+            "4"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
